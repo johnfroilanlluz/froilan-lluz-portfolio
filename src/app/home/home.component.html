@@ -1,0 +1,43 @@
+<div class="container">
+  <div class="row">
+    <!--about me-->
+    <div class="col-lg shadow border m-1">
+      <div class="text-center">
+        <h2>About Me</h2>
+        <img
+          src="../../assets/froi.JPG"
+          alt="profile picture"
+          width="256"
+          height="256"
+          class="rounded-circle"
+        />
+        <p>
+          Enthusiastic and results-driven Computer Engineering graduate with a
+          passion for technology and innovation. Possessing a solid foundation
+          in computer systems, hardware, and software development, I am eager to
+          contribute my skills to a dynamic team and make a meaningful impact in
+          the field of technology.
+        </p>
+      </div>
+    </div>
+    <!--Featured-->
+    <div class="col-lg shadow border m-1">
+      <div class="text-center">
+        <h2>Featured Project</h2>
+        <h4>{{ featuredProject.name }}</h4>
+      </div>
+      <carousel>
+        <div *ngFor="let picture of featuredProject.pictures">
+          <slide
+            ><img
+              src="{{ picture }}"
+              alt="slide"
+              style="display: block; width: 100%"
+          /></slide>
+        </div>
+      </carousel>
+      <p class="mt-2">{{ featuredProject.summary }}</p>
+      <p>Visit the portfolio section to learn more!</p>
+    </div>
+  </div>
+</div>
