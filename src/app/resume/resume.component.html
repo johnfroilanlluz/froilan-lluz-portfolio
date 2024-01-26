@@ -1,5 +1,5 @@
 <div class="container text-center">
-  <button id="resume-button" (click)="DownloadFile()" class="btn btn-primary mb-5 shadow border">
+  <button id="resume-button" (click)="DownloadFile()" class="button-30" role="button">
     Download Pdf Resume
   </button>
 
@@ -14,8 +14,8 @@
           <div class="btn-link">Work Experience</div>
 
           <div style="width: 10.95px">
-            <div *ngIf="!isWorkExperienceOpen" style="color: white">></div>
-            <div *ngIf="isWorkExperienceOpen" style="color: white">v</div>
+            <div *ngIf="!isWorkExperienceOpen" style="color: white"><i class="fa-solid fa-greater-than"></i></div>
+            <div *ngIf="isWorkExperienceOpen" style="color: white"><i class="fa-solid fa-angle-down"></i></div>
           </div>
         </button>
         <div style="text-align: left">
@@ -50,8 +50,8 @@
           <div class="btn-link">Education</div>
 
           <div style="width: 10.95px">
-            <div *ngIf="!isEducationOpen" style="color: white">></div>
-            <div *ngIf="isEducationOpen" style="color: white">v</div>
+            <div *ngIf="!isEducationOpen" style="color: white"><i class="fa-solid fa-greater-than"></i></div>
+            <div *ngIf="isEducationOpen" style="color: white"><i class="fa-solid fa-angle-down"></i></div>
           </div>
         </button>
         <div style="text-align: left">
@@ -78,8 +78,8 @@
         <div class="btn-link">Certification</div>
 
         <div style="width: 10.95px">
-          <div *ngIf="!isCertificationsOpen" style="color: white">></div>
-          <div *ngIf="isCertificationsOpen" style="color: white">v</div>
+          <div *ngIf="!isCertificationsOpen" style="color: white"><i class="fa-solid fa-greater-than"></i></div>
+          <div *ngIf="isCertificationsOpen" style="color: white"><i class="fa-solid fa-angle-down"></i></div>
         </div>
       </button>
         <div style="text-align: left">
@@ -104,8 +104,8 @@
         <div class="btn-link">Skills</div>
 
         <div style="width: 10.95px">
-          <div *ngIf="!isSkillsOpen" style="color: white">></div>
-          <div *ngIf="isSkillsOpen" style="color: white">v</div>
+          <div *ngIf="!isSkillsOpen" style="color: white"><i class="fa-solid fa-greater-than"></i></div>
+          <div *ngIf="isSkillsOpen" style="color: white"><i class="fa-solid fa-angle-down"></i></div>
         </div>
       </button>
         <div class="row" style="text-align: left">
