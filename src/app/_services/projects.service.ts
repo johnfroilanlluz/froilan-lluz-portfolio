@@ -12,7 +12,7 @@ export class ProjectsService {
   projects: Project[] = [
     {
       id: 0,
-      name: 'Python Project',
+      name: '1 Python Project',
       pictures: [
         '../../assets/python1.png',
         '../../assets/python2.png',
@@ -33,7 +33,7 @@ export class ProjectsService {
     },
     {
       id: 1,
-      name: 'Angular App',
+      name: '4 Angular App',
       pictures: [
         '../../assets/1.png',
         '../../assets/2.png',
@@ -64,7 +64,7 @@ export class ProjectsService {
     },
     {
       id: 2,
-      name: 'Angular Website',
+      name: '3 Angular Website',
       pictures: [
         '../../assets/Picture1.png',
         '../../assets/Picture2.png',

@@ -1,5 +1,10 @@
 <div class="container text-center">
-  <button id="resume-button" (click)="DownloadFile()" class="button-30" role="button">
+  <button
+    id="resume-button"
+    (click)="DownloadFile()"
+    class="button-30"
+    role="button"
+  >
     Download Pdf Resume
   </button>
 
@@ -14,29 +19,39 @@
           <div class="btn-link">Work Experience</div>
 
           <div style="width: 10.95px">
-            <div *ngIf="!isWorkExperienceOpen" style="color: white"><i class="fa-solid fa-greater-than"></i></div>
-            <div *ngIf="isWorkExperienceOpen" style="color: white"><i class="fa-solid fa-angle-down"></i></div>
+            <div *ngIf="!isWorkExperienceOpen" style="color: white">
+              <i class="fa-solid fa-greater-than"></i>
+            </div>
+            <div *ngIf="isWorkExperienceOpen" style="color: white">
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
           </div>
         </button>
         <div style="text-align: left">
-          <h2 class="mb-0">Frontend developer</h2>
+          <h2 class="mb-0">Frontend Developer</h2>
           <h3 class="text-primary">ApexTech Innovations</h3>
           <ul>
             <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Architecto cumque quas fugiat non eveniet, est minus quaerat
-              optio!
+              As a Frontend Developer at ApexTech Innovations, my journey was a
+              dynamic and fulfilling exploration of cutting-edge technologies
+              and creative web development.
             </li>
             <li>
-              rem aut fugit ut quos mollitia tempora necessitatibus odit
-              dolorem, asperiores deserunt
+              Collaborating closely with talented designers and backend
+              developers, I contributed to projects that pushed the boundaries
+              of modern web development.
             </li>
 
             <li>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae
-              molestiae consequatur nostrum illum?
+              The company's emphasis on professional development provided
+              opportunities for training and skill enhancement, allowing me to
+              stay competitive in the ever-evolving field of frontend
+              development.
             </li>
-            <li>Expedita, assumenda rerum in vitae corporis, tene</li>
+            <li>
+              One of the highlights of my experience was being part of a team
+              that successfully launched a high-impact project.
+            </li>
           </ul>
         </div>
         <hr />
@@ -50,8 +65,12 @@
           <div class="btn-link">Education</div>
 
           <div style="width: 10.95px">
-            <div *ngIf="!isEducationOpen" style="color: white"><i class="fa-solid fa-greater-than"></i></div>
-            <div *ngIf="isEducationOpen" style="color: white"><i class="fa-solid fa-angle-down"></i></div>
+            <div *ngIf="!isEducationOpen" style="color: white">
+              <i class="fa-solid fa-greater-than"></i>
+            </div>
+            <div *ngIf="isEducationOpen" style="color: white">
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
           </div>
         </button>
         <div style="text-align: left">
@@ -71,17 +90,21 @@
       </accordion-group>
       <accordion-group [(isOpen)]="isCertificationsOpen">
         <button
-        class="btn btn-block justify-content-between d-flex w-100"
-        accordion-heading
-      >
-        <div style="visibility: hidden">></div>
-        <div class="btn-link">Certification</div>
+          class="btn btn-block justify-content-between d-flex w-100"
+          accordion-heading
+        >
+          <div style="visibility: hidden">></div>
+          <div class="btn-link">Certification</div>
 
-        <div style="width: 10.95px">
-          <div *ngIf="!isCertificationsOpen" style="color: white"><i class="fa-solid fa-greater-than"></i></div>
-          <div *ngIf="isCertificationsOpen" style="color: white"><i class="fa-solid fa-angle-down"></i></div>
-        </div>
-      </button>
+          <div style="width: 10.95px">
+            <div *ngIf="!isCertificationsOpen" style="color: white">
+              <i class="fa-solid fa-greater-than"></i>
+            </div>
+            <div *ngIf="isCertificationsOpen" style="color: white">
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+        </button>
         <div style="text-align: left">
           <h3>Erouvotika Automation Center</h3>
           <ul>
@@ -97,17 +120,21 @@
       </accordion-group>
       <accordion-group [(isOpen)]="isSkillsOpen">
         <button
-        class="btn btn-block justify-content-between d-flex w-100"
-        accordion-heading
-      >
-        <div style="visibility: hidden">></div>
-        <div class="btn-link">Skills</div>
+          class="btn btn-block justify-content-between d-flex w-100"
+          accordion-heading
+        >
+          <div style="visibility: hidden">></div>
+          <div class="btn-link">Skills</div>
 
-        <div style="width: 10.95px">
-          <div *ngIf="!isSkillsOpen" style="color: white"><i class="fa-solid fa-greater-than"></i></div>
-          <div *ngIf="isSkillsOpen" style="color: white"><i class="fa-solid fa-angle-down"></i></div>
-        </div>
-      </button>
+          <div style="width: 10.95px">
+            <div *ngIf="!isSkillsOpen" style="color: white">
+              <i class="fa-solid fa-greater-than"></i>
+            </div>
+            <div *ngIf="isSkillsOpen" style="color: white">
+              <i class="fa-solid fa-angle-down"></i>
+            </div>
+          </div>
+        </button>
         <div class="row" style="text-align: left">
           <div class="col">
             <h3>Programming Language:</h3>
