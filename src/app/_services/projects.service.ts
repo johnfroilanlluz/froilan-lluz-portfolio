@@ -12,7 +12,7 @@ export class ProjectsService {
   projects: Project[] = [
     {
       id: 0,
-      name: '1 Python Project',
+      name: 'B-ME! The Virtual Nutritionist',
       pictures: [
         '../../assets/python1.png',
         '../../assets/python2.png',
@@ -33,25 +33,17 @@ export class ProjectsService {
     },
     {
       id: 1,
-      name: '4 Angular App',
+      name: 'Queuewise Teller App',
       pictures: [
         '../../assets/1.png',
         '../../assets/2.png',
         '../../assets/4.png',
         '../../assets/5.png',
         '../../assets/7.png',
-        '../../assets/8.png',
-        '../../assets/9.png',
-        '../../assets/10.png',
-        '../../assets/12.png',
-        '../../assets/14.png',
-        '../../assets/13.png',
-        '../../assets/15.png',
-        '../../assets/16.png',
-        '../../assets/17.png',
       ],
       projectLink: '//www.github.com',
-      summary: 'Fullstack web app developed using Angular and Node.JS',
+      summary:
+        'An innovative queueing system revolutionizes the traditional waiting experience',
       description:
         'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
       tags: [
@@ -64,14 +56,58 @@ export class ProjectsService {
     },
     {
       id: 2,
-      name: '3 Angular Website',
+      name: 'Queuewise Public View App',
       pictures: [
-        '../../assets/Picture1.png',
-        '../../assets/Picture2.png',
-        '../../assets/Picture3.png',
+        '../../assets/8.png',
+        '../../assets/9.png',
+        '../../assets/10.png',
       ],
       projectLink: '//www.github.com',
-      summary: 'Frontend Website developed using Angular',
+      summary:
+        'An innovative queueing system revolutionizes the traditional waiting experience',
+      description:
+        'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
+      tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS, Tag.ELECTRON],
+    },
+    {
+      id: 3,
+      name: 'Queuewise Live View App',
+      pictures: ['../../assets/12.png', '../../assets/11.png'],
+      projectLink: '//www.github.com',
+      summary:
+        'An innovative queueing system revolutionizes the traditional waiting experience',
+      description:
+        'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
+      tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS, Tag.ELECTRON],
+    },
+    {
+      id: 4,
+      name: 'Queuewise Kiosk App',
+      pictures: [
+        '../../assets/13.png',
+        '../../assets/15.png',
+        '../../assets/16.png',
+        '../../assets/17.png',
+      ],
+      projectLink: '//www.github.com',
+      summary:
+        'An innovative queueing system revolutionizes the traditional waiting experience',
+      description:
+        'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
+      tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS, Tag.ELECTRON],
+    },
+    {
+      id: 5,
+      name: 'VividTrim-Studios',
+      pictures: [
+        '../../assets/vivid1.png',
+        '../../assets/vivid2.png',
+        '../../assets/vivid3.png',
+        '../../assets/vivid4.png',
+        '../../assets/vivid5.png',
+      ],
+      projectLink: '//www.github.com',
+      summary: 'A responsive website for a barbershop company advertising',
       description:
         'A frontend website developed with Angular JavaScript represents a sophisticated and dynamic user interface, showcasing the capabilities of this powerful front-end framework. Angular, maintained by Google, facilitates the creation of robust, single-page web applications with a modular and component-based architecture. ',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS, Tag.JAVASCRIPT],
