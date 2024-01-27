@@ -13,6 +13,7 @@ export class ProjectsService {
     {
       id: 0,
       name: 'B-ME! The Virtual Nutritionist',
+      display: ['../../assets/python6.png'],
       pictures: [
         '../../assets/python1.png',
         '../../assets/python2.png',
@@ -34,6 +35,7 @@ export class ProjectsService {
     {
       id: 1,
       name: 'Queuewise Teller App',
+      display: ['../../assets/7.png'],
       pictures: [
         '../../assets/1.png',
         '../../assets/2.png',
@@ -43,7 +45,7 @@ export class ProjectsService {
       ],
       projectLink: '//www.github.com',
       summary:
-        'An innovative queueing system revolutionizes the traditional waiting experience',
+        'Teller App of Queuewise System ',
       description:
         'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
       tags: [
@@ -57,6 +59,7 @@ export class ProjectsService {
     {
       id: 2,
       name: 'Queuewise Public View App',
+      display: ['../../assets/8.png'],
       pictures: [
         '../../assets/8.png',
         '../../assets/9.png',
@@ -64,7 +67,7 @@ export class ProjectsService {
       ],
       projectLink: '//www.github.com',
       summary:
-        'An innovative queueing system revolutionizes the traditional waiting experience',
+        'Public View App of Queuewise System',
       description:
         'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS, Tag.ELECTRON],
@@ -72,10 +75,11 @@ export class ProjectsService {
     {
       id: 3,
       name: 'Queuewise Live View App',
+      display: ['../../assets/12.png'],
       pictures: ['../../assets/12.png', '../../assets/11.png'],
       projectLink: '//www.github.com',
       summary:
-        'An innovative queueing system revolutionizes the traditional waiting experience',
+        'Live View App of Queuewise System',
       description:
         'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS, Tag.ELECTRON],
@@ -83,15 +87,21 @@ export class ProjectsService {
     {
       id: 4,
       name: 'Queuewise Kiosk App',
+      display: ['../../assets/23.png'],
       pictures: [
-        '../../assets/13.png',
-        '../../assets/15.png',
-        '../../assets/16.png',
-        '../../assets/17.png',
+        // '../../assets/13.png',
+        // '../../assets/15.png',
+        // '../../assets/16.png',
+        // '../../assets/17.png',
+        '../../assets/20.png',
+        '../../assets/21.png',
+        '../../assets/22.png',
+        '../../assets/23.png',
+        '../../assets/24.png',
       ],
       projectLink: '//www.github.com',
       summary:
-        'An innovative queueing system revolutionizes the traditional waiting experience',
+        'Kiosk App of Queuewise System',
       description:
         'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS, Tag.ELECTRON],
@@ -99,6 +109,7 @@ export class ProjectsService {
     {
       id: 5,
       name: 'VividTrim-Studios',
+      display: ['../../assets/vivid3.png'],
       pictures: [
         '../../assets/vivid1.png',
         '../../assets/vivid2.png',

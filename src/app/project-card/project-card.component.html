@@ -1,6 +1,17 @@
 <div class="card shadow text-center" style="max-width: 350px; min-width: 350px">
   <div class="card-body">
     <h5 class="card-title text-bg-success">{{ project.name }}</h5>
+    <div>
+      <carousel>
+        <div *ngFor="let picture of project.display">
+          <img
+            src="{{ picture }}"
+            alt="slide"
+            style="display: block; width: 100%; border-radius: 50px"
+          />
+        </div>
+      </carousel>
+    </div>
     <p class="card-text">{{ project.summary }}</p>
     <button class="btn btn-primary" (click)="OpenProjectModal()">
       View More
