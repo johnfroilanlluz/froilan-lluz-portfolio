@@ -27,4 +27,10 @@ export class ProjectCardComponent {
       modalOptions
     );
   }
+  onClick() {
+    window.open(
+      'https://stackshare.io/index/languages-and-frameworks',
+      '_blank'
+    );
+  }
 }

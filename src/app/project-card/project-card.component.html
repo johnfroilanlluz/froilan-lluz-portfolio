@@ -1,4 +1,5 @@
-<div id="project-card"
+<div
+  id="project-card"
   class="card shadow text-center"
   style="
     max-width: 350px;
@@ -6,7 +7,8 @@
     background: #29292b;
     border-radius: 12px;
   "
-><span class="after"></span>
+>
+  <span class="after"></span>
   <div class="card-body">
     <h5 class="card-title text-bg-danger mb-3">{{ project.name }}</h5>
     <div>
@@ -21,13 +23,15 @@
       </carousel>
     </div>
     <p class="card-text text-white mt-2">{{ project.summary }}</p>
-    <button class="btn btn-primary" (click)="OpenProjectModal()">
-      View More
-    </button>
+    <button class="btn button" (click)="OpenProjectModal()">View More</button>
   </div>
   <div class="card-footer">
     <div class="d-flex flex-wrap justify-content-center">
-      <div *ngFor="let tag of project.tags">
+      <div
+        *ngFor="let tag of project.tags"
+        style="cursor: pointer"
+        (click)="onClick()"
+      >
         <div class="tag me-2 mb-2" [style.background-color]="tag.color">
           {{ tag }}
         </div>

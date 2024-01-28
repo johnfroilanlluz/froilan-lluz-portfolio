@@ -7,3 +7,19 @@
         transition: all 0.4s ease-in-out;
     }
 }
+
+.card {
+    .card-body {
+        .button {
+            background: transparent;
+            color: #f8f8f8;
+            border: 2px solid #f8f8f8;
+            &:hover {
+                background: #f8f8f8;
+                color: #000;
+                border: 2px solid #f8f8f8;
+                transition: all 0.3s ease-in-out;
+            }
+        }
+    }
+}
