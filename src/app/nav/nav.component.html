@@ -1,57 +1,17 @@
-<nav class="navbar-expand-md border-bottom mb-3">
-  <div class="container">
-    <ul class="nav justify-content-center">
-      <li class="nav-item">
-        <a
-          class="nav-link text-white"
-          style="
-            font-weight: bold;
-            font-size: 12px;
-            border-right: 1px solid rgb(231, 195, 195);
-            border-left: 1px solid rgb(231, 195, 195);
-          "
-          routerLink="/home"
-          >Home
-        </a>
+<nav class="navbar-expand-md mb-5">
+  <div class="container" style="font-size: large">
+    <ul class="nav justify-content-center py-3">
+      <li class="nav-item" [class.active]="activeLink === 'home'">
+        <a class="nav-link text-white" (click)="setActiveLink('home')" routerLink="/home">Home </a>
       </li>
-      <li class="nav-item">
-        <a
-          class="nav-link text-white"
-          style="
-            font-weight: bold;
-            font-size: 12px;
-            border-right: 1px solid rgb(231, 195, 195);
-            border-left: 1px solid rgb(231, 195, 195);
-          "
-          routerLink="/portfolio"
-          >Projects
-        </a>
+      <li class="nav-item" [class.active]="activeLink === 'portfolio'">
+        <a class="nav-link text-white" (click)="setActiveLink('portfolio')" routerLink="/portfolio">Projects </a>
       </li>
-      <li class="nav-item">
-        <a
-          class="nav-link text-white"
-          style="
-            font-weight: bold;
-            font-size: 12px;
-            border-right: 1px solid rgb(231, 195, 195);
-            border-left: 1px solid rgb(231, 195, 195);
-          "
-          routerLink="/resume"
-          >Resume
-        </a>
+      <li class="nav-item" [class.active]="activeLink === 'resume'">
+        <a class="nav-link text-white" (click)="setActiveLink('resume')" routerLink="/resume">Resume </a>
       </li>
-      <li class="nav-item">
-        <a
-          class="nav-link text-white"
-          style="
-            font-weight: bold;
-            font-size: 12px;
-            border-right: 1px solid rgb(231, 195, 195);
-            border-left: 1px solid rgb(231, 195, 195);
-          "
-          routerLink="/contact"
-          >Contact
-        </a>
+      <li class="nav-item" [class.active]="activeLink === 'contact'">
+        <a class="nav-link text-white" (click)="setActiveLink('contact')" routerLink="/contact">Contact </a>
       </li>
     </ul>
   </div>

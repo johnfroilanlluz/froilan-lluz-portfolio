@@ -1,18 +1,26 @@
-<div class="card shadow text-center" style="max-width: 350px; min-width: 350px">
+<div id="project-card"
+  class="card shadow text-center"
+  style="
+    max-width: 350px;
+    min-width: 350px;
+    background: #29292b;
+    border-radius: 12px;
+  "
+><span class="after"></span>
   <div class="card-body">
-    <h5 class="card-title text-bg-success">{{ project.name }}</h5>
+    <h5 class="card-title text-bg-danger mb-3">{{ project.name }}</h5>
     <div>
       <carousel>
         <div *ngFor="let picture of project.display">
           <img
             src="{{ picture }}"
             alt="slide"
-            style="display: block; width: 100%; border-radius: 50px"
+            style="display: block; width: 100%; border-radius: 10px"
           />
         </div>
       </carousel>
     </div>
-    <p class="card-text">{{ project.summary }}</p>
+    <p class="card-text text-white mt-2">{{ project.summary }}</p>
     <button class="btn btn-primary" (click)="OpenProjectModal()">
       View More
     </button>

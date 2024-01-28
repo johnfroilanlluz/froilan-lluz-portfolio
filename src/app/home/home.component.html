@@ -1,12 +1,9 @@
-<div
-  class="container"
-  style="border-radius: 10px; border: none; background: #eef5ff"
->
+<div class="container" style="border-radius: 10px; background: #18181b">
   <div class="row">
     <!--about me-->
-    <div class="col-lg shadow border m-2">
+    <div class="col-lg shadow">
       <div class="text-center">
-        <h2 class="text-dark">About Me</h2>
+        <h2 class="text-white"></h2>
         <img
           src="../../assets/froi.JPG"
           alt="profile picture"
@@ -14,7 +11,12 @@
           height="256"
           class="rounded-circle"
         />
-        <p>
+        <h1 class="display-6 text-white">
+          Hi, I'm
+          <b style="font-weight: 700; color: #dc3545">John Froilan Lluz</b>
+          <p class="animated-text">a <span></span></p>
+        </h1>
+        <p class="text-white">
           Enthusiastic and results-driven Computer Engineering graduate with a
           passion for technology and innovation. Possessing a solid foundation
           in computer systems, hardware, and software development.
@@ -22,28 +24,32 @@
       </div>
     </div>
     <!--Featured-->
-    <div class="col-lg shadow border m-1">
+    <div class="col-lg shadow">
       <div class="text-center">
-        <h2 class="text-dark">Featured Project</h2>
-        <h4 class="text-bg-success">{{ featuredProject.name }}</h4>
+        <h2 class="text-white mb-4">Featured Project</h2>
       </div>
       <carousel>
         <div *ngFor="let picture of featuredProject.pictures">
           <slide
             ><img
+              id="featured-project"
+              routerLink="/portfolio"
+              class="img-img"
               src="{{ picture }}"
               alt="slide"
               style="
                 display: block;
                 width: 90%;
-                border-radius: 50px;
+                border-radius: 10px;
                 margin-left: 25px;
               "
           /></slide>
         </div>
       </carousel>
-      <p class="mt-2">{{ featuredProject.summary }}</p>
-      <p>Visit the projects section to learn more!</p>
+      <h4 class="text-white text-center mt-5">{{ featuredProject.name }}</h4>
+      <p style="color: #f8f8f8; text-align: center">
+        Visit the projects section to learn more!
+      </p>
     </div>
   </div>
 </div>
