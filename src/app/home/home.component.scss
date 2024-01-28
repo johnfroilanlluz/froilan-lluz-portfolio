@@ -8,83 +8,88 @@
 }
 
 .animated-text {
-    font-size: 34px;
+    font-size: 30px;
     font-weight: 700;
     min-width: 280px;
+    
 
     span {
         position: relative;
+        margin-top: 5px;
+        text-decoration: underline;
+        text-decoration-color: #dc3545;
+        text-decoration-thickness: 7px;
     }
 
 }
 
-.animated-text span::before {
-    content: 'Frontend Developer';
-    color: grey;
-    animation: words 20s infinite;
+// .animated-text span::before {
+//     content: 'Frontend Developer';
+//     color: grey;
+//     animation: words 20s infinite;
 
-}
+// }
 
-.animated-text span::after {
-    content: '';
-    position: absolute;
-    width: calc(100% + 8px);
-    height: 100%;
-    background-color: #18181b;
-    border-left: 2px solid grey;
-    right: -8px;
-    animation: cursor .8s infinite, typing 20s steps(14) infinite;
-}
+// .animated-text span::after {
+//     content: '';
+//     position: absolute;
+//     width: calc(100% + 8px);
+//     height: 100%;
+//     background-color: #18181b;
+//     border-left: 2px solid grey;
+//     right: -8px;
+//     animation: cursor .8s infinite, typing 20s steps(14) infinite;
+// }
 
-@keyframes cursor {
-    to {
-        border-left: 2px solid #ff7f5000;
-    }
+// @keyframes cursor {
+//     to {
+//         border-left: 2px solid #ff7f5000;
+//     }
 
-}
+// }
 
-@keyframes words {
+// @keyframes words {
 
-    0%,
-    30% {
-        content: 'Frontend Developer';
-    }
+//     0%,
+//     30% {
+//         content: 'Frontend Developer';
+//     }
 
-    31%,
-    60% {
-        content: 'Tech Enthusiast';
-    }
+//     31%,
+//     60% {
+//         content: 'Tech Enthusiast';
+//     }
 
-    61%,
-    100% {
-        content: 'Gamer';
-    }
-}
+//     61%,
+//     100% {
+//         content: 'Gamer';
+//     }
+// }
 
-@keyframes typing {
+// @keyframes typing {
 
-    10%,
-    15%,
-    30%,
-    35%,
-    50%,
-    55%,
-    70%,
-    75%,
-    90%,
-    95% {
-        width: 0;
-    }
+//     10%,
+//     15%,
+//     30%,
+//     35%,
+//     50%,
+//     55%,
+//     70%,
+//     75%,
+//     90%,
+//     95% {
+//         width: 0;
+//     }
 
-    5%,
-    20%,
-    25%,
-    40%,
-    45%,
-    60%,
-    65%,
-    80%,
-    85% {
-        width: calc(100% + 8px);
-    }
-}
+//     5%,
+//     20%,
+//     25%,
+//     40%,
+//     45%,
+//     60%,
+//     65%,
+//     80%,
+//     85% {
+//         width: calc(100% + 8px);
+//     }
+// }

@@ -1,4 +1,11 @@
 #filter-button {
+    background: #29292b;
+    color: #f8f8f8;
+    
+    i{
+        margin-left: 10px;
+    }
+
     &:hover {
 
         transform: translateY(-5px);
