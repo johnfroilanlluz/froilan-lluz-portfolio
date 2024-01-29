@@ -7,7 +7,6 @@ import { Title } from '@angular/platform-browser';
   styleUrls: ['./resume.component.scss'],
 })
 export class ResumeComponent {
-
   isWorkExperienceOpen: boolean = false;
   isEducationOpen: boolean = false;
   isCertificationsOpen: boolean = false;
@@ -20,7 +19,7 @@ export class ResumeComponent {
     const link = this.renderer.createElement('a');
     link.setAttribute('target', '_blank');
     link.setAttribute('href', '../../assets/Resume.pdf');
-    link.setAttribute('download', 'Resume.pdf');
+    link.setAttribute('download', 'John Froilan Lluz CV.pdf');
     link.click();
     link.remove();
   }
