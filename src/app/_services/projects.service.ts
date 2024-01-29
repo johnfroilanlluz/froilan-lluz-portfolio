@@ -44,8 +44,7 @@ export class ProjectsService {
         '../../assets/7.png',
       ],
       projectLink: '//www.github.com',
-      summary:
-        'Teller App of Queuewise System ',
+      summary: 'Teller App of Queuewise System ',
       description:
         'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
       tags: [
@@ -66,8 +65,7 @@ export class ProjectsService {
         '../../assets/10.png',
       ],
       projectLink: '//www.github.com',
-      summary:
-        'Public View App of Queuewise System',
+      summary: 'Public View App of Queuewise System',
       description:
         'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS, Tag.ELECTRON],
@@ -78,8 +76,7 @@ export class ProjectsService {
       display: ['../../assets/12.png'],
       pictures: ['../../assets/12.png', '../../assets/11.png'],
       projectLink: '//www.github.com',
-      summary:
-        'Live View App of Queuewise System',
+      summary: 'Live View App of Queuewise System',
       description:
         'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS, Tag.ELECTRON],
@@ -100,8 +97,7 @@ export class ProjectsService {
         '../../assets/24.png',
       ],
       projectLink: '//www.github.com',
-      summary:
-        'Kiosk App of Queuewise System',
+      summary: 'Kiosk App of Queuewise System',
       description:
         'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS, Tag.ELECTRON],
@@ -109,7 +105,7 @@ export class ProjectsService {
     {
       id: 5,
       name: 'VividTrim-Studios',
-      display: ['../../assets/vivid3.png'],
+      display: ['../../assets/vivid1.png'],
       pictures: [
         '../../assets/vivid1.png',
         '../../assets/vivid2.png',

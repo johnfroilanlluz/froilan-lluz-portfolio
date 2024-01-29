@@ -42,10 +42,24 @@ ul {
             transform: scale(1.1);
         }
 
+        &:focus-within::after {
+            width: 60%;
+            transition: 0.3s;
+            transform: scale(1.1);
+        }
+
         a {
             text-decoration: none;
-            color: #fff;
+            color: #f8f8f8;
             text-transform: uppercase;
+
+            &:hover,
+            &.active,
+            &:focus {
+                color: #dc3545;
+                transition: 0.3s;
+                transform: scale(1.1);
+            }
         }
     }
 }

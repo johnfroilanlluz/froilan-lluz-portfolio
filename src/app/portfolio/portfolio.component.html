@@ -1,6 +1,12 @@
 <div
   class="container"
-  style="border-radius: 10px; border: none; background: #f8f8f8"
+  style="
+    border-radius: 10px;
+    border: none;
+    background: #414040;
+    justify-content: center;
+    max-width: 1200px;
+  "
 >
   <div class="mb-2">
     <div>
@@ -101,7 +107,7 @@
       </div>
     </div>
   </div>
-  <div class="row">
+  <div class="row justify-content-center m-lg-2 px-1">
     <div *ngFor="let project of projects" class="col-lg-4 col-md-6 mb-4">
       <app-project-card [project]="project"></app-project-card>
     </div>
