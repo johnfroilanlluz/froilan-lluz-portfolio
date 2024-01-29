@@ -9,7 +9,7 @@ accordion-group::ng-deep .card-header {
 
   &:hover {
 
-    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #dc3545 0 -3px 0 inset;
+    box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #414040 0 -3px 0 inset;
     transform: translateY(-2px);
   }
 
@@ -56,7 +56,7 @@ accordion-group::ng-deep .card-header {
 }
 
 .button-30:active {
-  box-shadow: #D6D6E7 0 3px 7px inset;
+  box-shadow: #414040 0 3px 7px inset;
   transform: translateY(2px);
 }
 

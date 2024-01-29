@@ -1,6 +1,6 @@
 <div
   class="container text-center"
-  style="border-radius: 10px; border: none; background: #eef5ff"
+  style="border-radius: 10px; border: none; background: #414040"
 >
   <button
     id="resume-button"
@@ -8,13 +8,20 @@
     class="button-30"
     role="button"
     style="margin-top: 30px"
+    data-aos="zoom-in"
+    data-aos-duration="2000"
   >
     Download Pdf Resume
   </button>
 
   <div class="pb-2">
     <accordion [isAnimated]="true" class="shadow">
-      <accordion-group [(isOpen)]="isWorkExperienceOpen">
+      <accordion-group
+        [(isOpen)]="isWorkExperienceOpen"
+        data-aos="zoom-in"
+        data-aos-duration="1000"
+        data-aos-delay="100"
+      >
         <button
           class="btn btn-block justify-content-between d-flex w-100"
           accordion-heading
@@ -33,7 +40,9 @@
         </button>
         <div style="text-align: left">
           <h2 class="mb-0">Frontend Developer</h2>
-          <h3 class="text-primary text-danger-emphasis ">ApexTech Innovations</h3>
+          <h3 class="text-primary text-danger-emphasis">
+            ApexTech Innovations
+          </h3>
           <ul>
             <li>
               As a Frontend Developer at ApexTech Innovations, my journey was a
@@ -60,7 +69,12 @@
         </div>
         <hr />
       </accordion-group>
-      <accordion-group [(isOpen)]="isEducationOpen">
+      <accordion-group
+        [(isOpen)]="isEducationOpen"
+        data-aos="zoom-in"
+        data-aos-duration="2000"
+        data-aos-delay="100"
+      >
         <button
           class="btn btn-block justify-content-between d-flex w-100"
           accordion-heading
@@ -79,7 +93,7 @@
         </button>
         <div style="text-align: left">
           <h2 class="mb-0">Bacherlor of Science in Computer Engineering</h2>
-          <h3 class="text-primary">
+          <h3 class="text-primary text-danger-emphasis">
             Polytechnic University of the Philippines Binan Campus
           </h3>
           <ul>
@@ -92,7 +106,12 @@
           </ul>
         </div>
       </accordion-group>
-      <accordion-group [(isOpen)]="isCertificationsOpen">
+      <accordion-group
+        [(isOpen)]="isCertificationsOpen"
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+        data-aos-delay="100"
+      >
         <button
           class="btn btn-block justify-content-between d-flex w-100"
           accordion-heading
@@ -122,7 +141,12 @@
           </ul>
         </div>
       </accordion-group>
-      <accordion-group [(isOpen)]="isSkillsOpen">
+      <accordion-group
+        [(isOpen)]="isSkillsOpen"
+        data-aos="zoom-in"
+        data-aos-duration="3000"
+        data-aos-delay="200"
+      >
         <button
           class="btn btn-block justify-content-between d-flex w-100"
           accordion-heading
@@ -143,20 +167,20 @@
           <div class="col">
             <h3>Programming Language:</h3>
             <ul>
-              <li>HTML</li>
-              <li>SCSS</li>
-              <li>Basic JavaScript</li>
-              <li>TypeScript</li>
-              <li>Python</li>
-              <li>Java</li>
+              <li class="text-danger-emphasis">HTML</li>
+              <li class="text-danger-emphasis">SCSS</li>
+              <li class="text-danger-emphasis">Basic JavaScript</li>
+              <li class="text-danger-emphasis">TypeScript</li>
+              <li class="text-danger-emphasis">Python</li>
+              <li class="text-danger-emphasis">Java</li>
             </ul>
           </div>
           <div class="col">
             <h3>Frameworks</h3>
             <ul>
-              <li>Angular</li>
-              <li>NodeJs</li>
-              <li>Flask</li>
+              <li class="text-danger-emphasis">Angular</li>
+              <li class="text-danger-emphasis">NodeJs</li>
+              <li class="text-danger-emphasis">Flask</li>
             </ul>
           </div>
         </div>
