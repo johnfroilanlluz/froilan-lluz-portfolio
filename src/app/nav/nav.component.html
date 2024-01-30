@@ -3,10 +3,10 @@
     <button class="navbar-toggler" type="button" (click)="toggleMenu()">
       <span><i class="fa-solid fa-bars"></i></span>
     </button>
-    <div class="collapse navbar-collapse " [ngClass]="{ showing: isMenuOpen }">
-      <ul class="nav justify-content-center py-3">
-        <li class="nav-item " [class.active]="activeLink === 'home'">
-          <a class="nav-link" (click)="setActiveLink('home')" routerLink="/home"
+    <div class="collapse navbar-collapse" [ngClass]="{ showing: isMenuOpen }">
+      <ul class="nav justify-content-center py-2" style="text-align: center">
+        <li class="nav-item"  [class.active]="activeLink === 'home'">
+          <a class="nav-link"  (click)="setActiveLink('home')" routerLink="/home"
             >Home
           </a>
         </li>
