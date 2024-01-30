@@ -6,9 +6,14 @@ import { Component } from '@angular/core';
   styleUrls: ['./nav.component.scss'],
 })
 export class NavComponent {
-  activeLink: string = ''; // To keep track of the active link
+  activeLink: string = '';
+  isMenuOpen: boolean = false;
 
   setActiveLink(link: string): void {
     this.activeLink = link;
+  }
+
+  toggleMenu(): void {
+    this.isMenuOpen = !this.isMenuOpen;
   }
 }

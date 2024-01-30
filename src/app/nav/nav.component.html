@@ -1,35 +1,40 @@
 <nav class="navbar-expand-md mb-5">
   <div class="container" style="font-size: large">
-    <ul class="nav justify-content-center py-3">
-      <li class="nav-item" [class.active]="activeLink === 'home'">
-        <a class="nav-link" (click)="setActiveLink('home')" routerLink="/home"
-          >Home
-        </a>
-      </li>
-      <li class="nav-item" [class.active]="activeLink === 'portfolio'">
-        <a
-          class="nav-link"
-          (click)="setActiveLink('portfolio')"
-          routerLink="/portfolio"
-          >Projects
-        </a>
-      </li>
-      <li class="nav-item" [class.active]="activeLink === 'resume'">
-        <a
-          class="nav-link"
-          (click)="setActiveLink('resume')"
-          routerLink="/resume"
-          >Resume
-        </a>
-      </li>
-      <li class="nav-item" [class.active]="activeLink === 'contact'">
-        <a
-          class="nav-link"
-          (click)="setActiveLink('contact')"
-          routerLink="/contact"
-          >Contact
-        </a>
-      </li>
-    </ul>
+    <button class="navbar-toggler" type="button" (click)="toggleMenu()">
+      <span><i class="fa-solid fa-bars"></i></span>
+    </button>
+    <div class="collapse navbar-collapse " [ngClass]="{ showing: isMenuOpen }">
+      <ul class="nav justify-content-center py-3">
+        <li class="nav-item " [class.active]="activeLink === 'home'">
+          <a class="nav-link" (click)="setActiveLink('home')" routerLink="/home"
+            >Home
+          </a>
+        </li>
+        <li class="nav-item" [class.active]="activeLink === 'portfolio'">
+          <a
+            class="nav-link"
+            (click)="setActiveLink('portfolio')"
+            routerLink="/portfolio"
+            >Projects
+          </a>
+        </li>
+        <li class="nav-item" [class.active]="activeLink === 'resume'">
+          <a
+            class="nav-link"
+            (click)="setActiveLink('resume')"
+            routerLink="/resume"
+            >Resume
+          </a>
+        </li>
+        <li class="nav-item" [class.active]="activeLink === 'contact'">
+          <a
+            class="nav-link"
+            (click)="setActiveLink('contact')"
+            routerLink="/contact"
+            >Contact
+          </a>
+        </li>
+      </ul>
+    </div>
   </div>
 </nav>
