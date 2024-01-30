@@ -3,7 +3,7 @@
   "version": 1,
   "newProjectRoot": "projects",
   "projects": {
-    "sampleportfolio": {
+    "Johnfroilanlluz": {
       "projectType": "application",
       "schematics": {
         "@schematics/angular:component": {
@@ -17,7 +17,7 @@
         "build": {
           "builder": "@angular-devkit/build-angular:browser",
           "options": {
-            "outputPath": "dist/sampleportfolio",
+            "outputPath": "dist/Johnfroilanlluz",
             "index": "src/index.html",
             "main": "src/main.ts",
             "polyfills": ["zone.js"],
@@ -58,10 +58,10 @@
           "builder": "@angular-devkit/build-angular:dev-server",
           "configurations": {
             "production": {
-              "browserTarget": "sampleportfolio:build:production"
+              "browserTarget": "Johnfroilanlluz:build:production"
             },
             "development": {
-              "browserTarget": "sampleportfolio:build:development"
+              "browserTarget": "Johnfroilanlluz:build:development"
             }
           },
           "defaultConfiguration": "development"
@@ -69,7 +69,7 @@
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n",
           "options": {
-            "browserTarget": "sampleportfolio:build"
+            "browserTarget": "Johnfroilanlluz:build"
           }
         },
         "test": {
