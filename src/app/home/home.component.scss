@@ -7,89 +7,166 @@
     }
 }
 
+
 .animated-text {
-    font-size: 30px;
-    font-weight: 700;
-    min-width: 280px;
-    
+    font-size: clamp(40px, 5vw, 50px);
+    font-family: "Archivo Black", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 
     span {
-        position: relative;
-        margin-top: 5px;
-        text-decoration: underline;
-        text-decoration-color: #dc3545;
-        text-decoration-thickness: 7px;
+        color: var(--blue-color);
     }
+}
+
+.display-6 {
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+
+
+
 
 }
 
-// .animated-text span::before {
-//     content: 'Frontend Developer';
-//     color: grey;
-//     animation: words 20s infinite;
+.row {
+    height: 70vh;
+}
 
-// }
 
-// .animated-text span::after {
-//     content: '';
-//     position: absolute;
-//     width: calc(100% + 8px);
-//     height: 100%;
-//     background-color: #18181b;
-//     border-left: 2px solid grey;
-//     right: -8px;
-//     animation: cursor .8s infinite, typing 20s steps(14) infinite;
-// }
 
-// @keyframes cursor {
-//     to {
-//         border-left: 2px solid #ff7f5000;
-//     }
+.button-container {
 
-// }
 
-// @keyframes words {
+    button {
+        width: 200px;
+        height: auto;
+        padding: 10px 30px;
+        padding-left: 20px;
+        text-align: center;
+        border-radius: 40px;
+        font-weight: bold;
+        font-size: 15px;
+        border: 3px solid var(--blue-color);
+        background: transparent;
+        color: var(--blue-color);
+        cursor: pointer;
+        position: relative;
+        overflow: hidden;
 
-//     0%,
-//     30% {
-//         content: 'Frontend Developer';
-//     }
+        justify-content: space-between;
 
-//     31%,
-//     60% {
-//         content: 'Tech Enthusiast';
-//     }
 
-//     61%,
-//     100% {
-//         content: 'Gamer';
-//     }
-// }
+        i {
+            color: var(--blue-color);
+            font-size: 20px;
 
-// @keyframes typing {
 
-//     10%,
-//     15%,
-//     30%,
-//     35%,
-//     50%,
-//     55%,
-//     70%,
-//     75%,
-//     90%,
-//     95% {
-//         width: 0;
-//     }
+        }
 
-//     5%,
-//     20%,
-//     25%,
-//     40%,
-//     45%,
-//     60%,
-//     65%,
-//     80%,
-//     85% {
-//         width: calc(100% + 8px);
-//     }
-// }
+        &:hover {
+            color: #f8f8f8;
+            transition: 0.5s;
+        }
+
+        &:hover i {
+            color: #f8f8f8;
+            transition: 0.5s;
+        }
+
+        span {
+            background: var(--blue-color);
+            height: 100%;
+            width: 0;
+            border-radius: 25px;
+            position: absolute;
+            left: 0;
+            bottom: 0;
+            z-index: -1;
+        }
+
+        &:hover span {
+            width: 100%;
+            transition: 0.5s;
+        }
+    }
+
+    .icon {
+        ul {
+            list-style: none;
+
+            justify-content: space-between;
+            padding: 0;
+            margin: 0;
+            text-wrap: wrap;
+
+
+            li {
+                margin: 0 10px;
+                text-wrap: wrap;
+
+                a {
+                    color: var(--blue-color);
+                    margin: 0 5px;
+                    font-size: 25px;
+                    padding: 5px 10px;
+                    border: 2px solid var(--blue-color);
+                    border-radius: 25px;
+                    transition: 0.5s;
+
+                    &:hover {
+                        color: #f8f8f8;
+                        background: var(--blue-color);
+                        transition: 0.5s;
+                        transform: translateY(-7px);
+                    }
+
+                }
+
+            }
+
+        }
+
+    }
+}
+
+@media (max-width: 768px) {
+
+
+    .animated-text {
+        text-align: center;
+    }
+
+    .text-center {
+        img {
+            width: 80%;
+            height: auto;
+            padding-bottom: 20px;
+
+        }
+
+
+    }
+
+    .button-container {
+        flex-direction: column;
+        align-items: center;
+
+        button {
+            width: 300px;
+            font-size: 15px;
+            padding: 10px 20px;
+        }
+
+        .icon {
+            padding: 20px 0;
+
+            ul {
+                li {
+                    a {
+                        font-size: 30px;
+                    }
+                }
+            }
+        }
+    }
+}

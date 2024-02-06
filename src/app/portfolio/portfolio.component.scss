@@ -1,8 +1,8 @@
 #filter-button {
     background: #29292b;
     color: #f8f8f8;
-    
-    i{
+
+    i {
         margin-left: 10px;
     }
 
@@ -10,5 +10,35 @@
 
         transform: translateY(-5px);
         transition: all 0.3s ease-in-out;
+    }
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    text-wrap: wrap;
+    width: 100%;
+
+    .header {
+
+        text-align: left;
+
+        h1 {
+            font-size: 50px;
+            min-width: 280px;
+            font-family: "Archivo Black", sans-serif;
+            font-weight: 400;
+            font-style: normal;
+            color: #f8f8f8;
+            padding-top: 20px;
+        }
+
+        p {
+            font-size: 20px;
+            font-family: "Source Code Pro", monospace;
+            font-optical-sizing: auto;
+            color: var(--blue-color);
+            margin-top: -10px;
+        }
     }
 }

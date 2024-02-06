@@ -8,18 +8,67 @@
     }
 }
 
+.view-more {
+    height: 65px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+
+
+    a {
+        color: var(--blue-color);
+        margin: 0 5px;
+        font-size: 20px;
+        padding: 5px 10px;
+        border: 2px solid var(--blue-color);
+        border-radius: 25px;
+        transition: 0.5s;
+
+        &:hover {
+            color: #f8f8f8;
+            background: var(--blue-color);
+            transition: 0.5s;
+            transform: translateY(-7px);
+        }
+    }
+
+}
+
+.card-title {
+    font-size: 19px;
+    font-family: "Archivo Black", sans-serif;
+    color: rgb(193, 193, 220);
+
+}
+
+.card-text {
+    font-size: 12px;
+    font-family: "Source Code Pro", monospace;
+    font-optical-sizing: auto;
+    color: grey;
+    text-align: left;
+    padding: 0 20px;
+}
+
 .card {
     .card-body {
+
         .button {
             background: transparent;
-            color: #f8f8f8;
-            border: 2px solid #f8f8f8;
+            color: var(--blue-color);
+            border: 2px solid var(--blue-color);
+
             &:hover {
-                background: #f8f8f8;
-                color: #000;
-                border: 2px solid #f8f8f8;
+                background: var(--blue-color);
+                color: #f8f8f8;
+                border: 2px solid var(--blue-color);
                 transition: all 0.3s ease-in-out;
             }
         }
+
+ 
     }
 }

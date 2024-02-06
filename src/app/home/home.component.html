@@ -1,57 +1,59 @@
-<div class="container" style="border-radius: 10px; background: #18181b">
-  <div class="row">
+<div class="container" style="border-radius: 10px">
+  <div class="col">
     <!--about me-->
-    <div class="col-lg shadow" data-aos="fade-right" data-aos-duration="2000">
-      <div class="text-center">
-        <h2 class="text-white"></h2>
+    <div class="shadow" data-aos="fade-right" data-aos-duration="2000">
+      <div class="text-center row justify-content-center align-items-center">
         <img
           src="../../assets/froi.JPG"
           alt="profile picture"
-          width="256"
-          height="256"
-          class="rounded-circle"
+          width="260"
+          height="260"
+          class="rounded-circle col-md-3 img-fluid"
         />
-        <h1 class="display-6 text-white">
-          Hi, I'm
-          <b style="font-weight: 700; color: #dc3545; margin-top: 10px"
-            >John Froilan Lluz</b
-          >
-          <p class="animated-text">a <span>Frontend Developer</span></p>
+        <h1
+          class="display-6 text-white col-md-9"
+          style="
+            font-weight: 200;
+            text-align: left;
+            padding: 0 20px;
+            font-size: clamp(17px, 3vw, 30px);
+            letter-spacing: 1px;
+          "
+        >
+          Hello, they call me Froi.
+          <p class="animated-text">
+            I <span>design</span> and <span>develop</span> things <br />
+            for the web.
+          </p>
+          <div class="button-container d-flex text-wrap">
+            <button type="button" (click)="DownloadFile()">
+              <i class="fa-solid fa-download col-md-2"></i>
+              <span></span>
+              Download CV
+            </button>
+            <div class="icon col-md-7">
+              <ul>
+                <li>
+                  <a href="//github.com/johnfroilanlluz" target="_blank"
+                    ><span></span><i class="fa-brands fa-github"></i
+                  ></a>
+                  <a href="//facebook.com/johnfroilan.lluz" target="_blank"
+                    ><span></span><i class="fa-brands fa-facebook"></i
+                  ></a>
+                  <a
+                    href="//linkedin.com/in/john-froilan-lluz-3038a6274/"
+                    target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                  ></a>
+                  <a href="//instagram.com/johnfroilanlluz/" target="_blank"
+                    ><i class="fa-brands fa-instagram"></i
+                  ></a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </h1>
-        <p class="text-white">
-          Enthusiastic and results-driven Computer Engineering graduate with a
-          passion for technology and innovation. Possessing a solid foundation
-          in computer systems, hardware, and software development.
-        </p>
       </div>
-    </div>
-    <!--Featured-->
-    <div class="col-lg shadow" data-aos="fade-left" data-aos-duration="1000">
-      <div class="text-center">
-        <h2 class="text-white mb-4">Featured Project</h2>
-      </div>
-      <carousel>
-        <div *ngFor="let picture of featuredProject.pictures">
-          <slide
-            ><img
-              id="featured-project"
-              routerLink="/portfolio"
-              class="img-img"
-              src="{{ picture }}"
-              alt="slide"
-              style="
-                display: block;
-                width: 90%;
-                border-radius: 10px;
-                margin-left: 25px;
-              "
-          /></slide>
-        </div>
-      </carousel>
-      <h4 class="text-white text-center mt-5">{{ featuredProject.name }}</h4>
-      <p style="color: #f8f8f8; text-align: center">
-        Visit the projects section to learn more!
-      </p>
     </div>
   </div>
 </div>

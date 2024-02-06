@@ -1,12 +1,11 @@
 export class Tag {
-  static readonly ANGULAR = new Tag('Angular', '#dc3545');
-  static readonly TYPESCRIPT = new Tag('TypeScript', '#dc3545');
-  static readonly PYTHON = new Tag('Python', '#dc3545');
-  static readonly NODEJS = new Tag('NodeJs', '#dc3545');
-  static readonly JAVASCRIPT = new Tag('JavaScript', '#dc3545');
-  static readonly FLASK = new Tag('Flask', '#dc3545');
-  static readonly ELECTRON = new Tag('Electron', '#dc3545');
-
+  static readonly ANGULAR = new Tag('Angular', 'var(--blue-color)');
+  static readonly TYPESCRIPT = new Tag('TypeScrpt', 'var(--blue-color)');
+  static readonly PYTHON = new Tag('Python', 'var(--blue-color)');
+  static readonly NODEJS = new Tag('NodeJs', 'var(--blue-color)');
+  static readonly JAVASCRIPT = new Tag('JavaScript', 'var(--blue-color)');
+  static readonly FLASK = new Tag('Flask', 'var(--blue-color)');
+  static readonly ELECTRON = new Tag('Electron', 'var(--blue-color)');
 
   private constructor(
     private readonly key: string,

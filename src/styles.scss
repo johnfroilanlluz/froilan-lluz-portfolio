@@ -27,5 +27,15 @@ body {
 }
 
 .button {
-    background-color: #dc3545;
+    background-color: var(--blue-color);
+}
+
+:root {
+    --blue-color: #479cb7;
+    --black-color: #00331a;
+    --dark-green-color: #00331a;
+    --icon-color: #426b58;
+
+
+
 }

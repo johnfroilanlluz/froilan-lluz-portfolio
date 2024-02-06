@@ -34,7 +34,7 @@ export class ProjectsService {
     },
     {
       id: 1,
-      name: 'Queuewise Teller App',
+      name: 'Queuewise Teller',
       display: ['../../assets/7.png'],
       pictures: [
         '../../assets/1.png',
@@ -44,7 +44,8 @@ export class ProjectsService {
         '../../assets/7.png',
       ],
       projectLink: '//www.github.com',
-      summary: 'Teller App of Queuewise System ',
+      summary:
+        'Teller App of Queuewise System used in Binan City Hall during Business One Stop Shop (BOSS) 2024 under the LGU Department of Binan City.',
       description:
         'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
       tags: [
@@ -57,7 +58,7 @@ export class ProjectsService {
     },
     {
       id: 2,
-      name: 'Queuewise Public View App',
+      name: 'Queuewise Public View',
       display: ['../../assets/8.png'],
       pictures: [
         '../../assets/8.png',
@@ -72,18 +73,18 @@ export class ProjectsService {
     },
     {
       id: 3,
-      name: 'Queuewise Live View App',
+      name: 'Queuewise Live View',
       display: ['../../assets/12.png'],
       pictures: ['../../assets/12.png', '../../assets/11.png'],
       projectLink: '//www.github.com',
-      summary: 'Live View App of Queuewise System',
+      summary: 'Live View App of Queuewise System of Binan City Hall ',
       description:
         'An innovative queueing system revolutionizes the traditional waiting experience by leveraging cutting-edge technology to enhance efficiency and customer satisfaction. Integrating advanced software and digital interfaces, this system optimizes the queue management process, minimizing wait times and improving overall service delivery. Features may include mobile check-ins, real-time updates, and personalized notifications, allowing customers to remotely join queues, track their position, and receive timely alerts. Smart algorithms analyze data to dynamically adjust wait times and allocate resources efficiently. ',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS, Tag.ELECTRON],
     },
     {
       id: 4,
-      name: 'Queuewise Kiosk App',
+      name: 'Queuewise Kiosk ',
       display: ['../../assets/23.png'],
       pictures: [
         // '../../assets/13.png',
@@ -114,7 +115,8 @@ export class ProjectsService {
         '../../assets/vivid5.png',
       ],
       projectLink: '//www.github.com',
-      summary: 'A responsive website for a barbershop company advertising',
+      summary:
+        'A responsive website for a barbershop company advertising, Promo and Booking the services of the company with the full potential in the market.',
       description:
         'A frontend website developed with Angular JavaScript represents a sophisticated and dynamic user interface, showcasing the capabilities of this powerful front-end framework. Angular, maintained by Google, facilitates the creation of robust, single-page web applications with a modular and component-based architecture. ',
       tags: [Tag.ANGULAR, Tag.TYPESCRIPT, Tag.NODEJS, Tag.JAVASCRIPT],
